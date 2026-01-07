@@ -57,10 +57,19 @@ pub struct Token {
 /// Includes GitHub API errors and HTTP client errors.
 #[derive(Debug)]
 pub enum OAuthError {
+    /// The device code expired before authorization completed.
     Expired,
+
+    /// GitHub asked the client to slow down polling.
     SlowDown,
+
+    /// Authorization has not completed yet.
     Pending,
+
+    /// Any other OAuth or protocol error.
     Other(String),
+
+    /// Underlying HTTP error.
     Http(reqwest::Error),
 }
 
