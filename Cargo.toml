@@ -2,8 +2,15 @@
 name = "gh-oauth"
 version = "0.1.1"
 edition = "2024"
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/rivethorn/ghoauth-rs"
+repository = "https://github.com/rivethorn/ghoauth-rs"
+description = "A small library to run OAuth against GitHub"
+authors = ["Hassan Q <hassanak813@outlook.com>"]
+keywords = ["github", "oauth"]
 
 [dependencies]
-reqwest = { version = "0.13.1", features = ["blocking","json", "form"] }
+reqwest = { version = "0.13.1", features = ["blocking", "json", "form"] }
 serde = { version = "1.0.228", features = ["derive"] }
 serde_json = "1.0.149"
