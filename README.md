@@ -1,6 +1,6 @@
 # GitHub OAuth for Rust
 
-[![Crates.io Version](https://img.shields.io/crates/v/gh-oauth?style=for-the-badge&color=black)](https://crates.io/crates/gh-oauth)
+[![Crates.io Version](https://img.shields.io/crates/v/gh-oauth?style=for-the-badge&logo=rust&color=black)](https://crates.io/crates/gh-oauth)
 
 A very simple library for Rust client applications that need to perform OAuth authorization against GitHub.
 
